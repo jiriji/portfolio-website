@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>DevJane Portfolio Website</title>
+        <title>Jiří Uherek - Portfolio Website</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
  
@@ -16,9 +16,6 @@
     </head>
     <body>
         <header>
-            <div class="logo">
-                <img src="img/devjane.png" alt="">
-            </div>
             <button class="nav-toggle" aria-label="toggle navigation">
                 <span class="hamburger"></span>
             </button>
@@ -35,17 +32,34 @@
 
         <section class="intro" id="home">
             <h1 class="section__title section__title--intro">
-                My portfolio <strong>website</strong>
+                <strong>Tenzies</strong> game
             </h1>
             <p class="section__subtitle section__subtitle--intro">front-end dev</p>
-            <img src="img/portfolio-01.jpg" alt="a picture of Jiří Uherek smiling" class="intro__img">
         </section>
 
         <div class="portfolio-item-individual">
-            <p>Voluptatibus, soluta blanditiis! Incidunt ea unde itaque illo molestiae eligendi sint culpa nobis voluptas sapiente voluptate, magnam ipsum eius earum?</p>
-            <img src="img/services-bg.jpg" alt="">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe et amet tenetur! Fugit sequi optio corrupti fugiat ducimus consequatur incidunt?</p>
-            <p>Voluptatibus, soluta blanditiis! Incidunt ea unde itaque illo molestiae eligendi sint culpa nobis voluptas sapiente voluptate, magnam ipsum eius earum?</p>
+            <h3>📝 Description:</h3>
+            <p><strong>Tenzies</strong> is a quick and addictive dice game where your goal is simple:
+                Hold and match all dice to the same number before your luck runs out.</p>
+            <div class="portfolio-item-individual-links">
+                <a class="portfolio-item-link" href="https://github.com/jiriji/tenzies-game.git" class="footer__link"><h3>🛠️ GitHub repository</h3></a>
+                <a class="portfolio-item-link" href="https://jiriji.github.io/tenzies-game/" class="footer__link"><h3>🎮 Game</h3></a>
+            </div>
+            <h3>🧩 Gameplay Features:</h3>
+            <ul>
+                <li>Built with React and functional components</li> 
+                <li>Uses useState, useEffect, and useRef hooks</li> 
+                <li>Unique die IDs generated with nanoid</li>
+                <li>Automatic focus on the "New Game" button after winning for keyboard accessibility</li>
+                <li>Fully screen-reader friendly (aria-live region included)</li>
+            </ul>
+            <h3>🔧Tech Stack:</h3>
+            <ul>
+                <li>React with Hooks (useState)</li>
+                <li>Confetti animation using react-confetti</li>
+                <li>nanoid for unique component keys</li>
+                <li>Semantic HTML and accessibility practices</li>
+            </ul>
         </div>
 
       
@@ -62,7 +76,7 @@
                 <li class="social-list__item">
                     <a class="social-list__link" href="instagram">
                         <i class="fa-brands fa-instagram"></i></a></li>
-            </ul>
+                    </ul>
         </footer>
         
         

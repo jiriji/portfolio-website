@@ -1,14 +1,16 @@
 {
-  "name": "Scrim-s01u9bn",
-  "description": "https://scrimba.com/build-and-deploy-your-portfolio-c012/~01",
+  "name": "portfolio-website",
+  "home": "https://github.com/jiriji/portfolio-website.git",
   "scripts": {
     "start": "vite",
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "gh-pages": "^6.3.0",
     "vite": "latest"
-  },
-  "devDependencies": {}
+  }
 }
