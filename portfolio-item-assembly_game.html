@@ -20,12 +20,12 @@
                 <span class="hamburger"></span>
             </button>
             <nav class="nav">
-                < class="nav__list">
+                <ul class="nav__list">
                     <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
                     <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
                     <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
                     <li class="nav__item"><a href="index.html#work" class="nav__link"> My Work</a></li>
-                </>
+                </ul>
             </nav> 
         </header> 
 
@@ -39,24 +39,26 @@
 
         <div class="portfolio-item-individual">
             <h3>📝 Description:</h3>
-            <p>This is a personal portfolio website. The website is built using HTML5, CSS3, and basic JavaScript, with an emphasis on clean structure, responsive design, and accessibility.</p>
-            <a class="portfolio-item-link" href="https://github.com/jiriji/portfolio-website.git" class="footer__link"><h2>GitHub repository</h2></a>
-            <ul>✨ <strong>Key Features:</strong>
-                <li><strong>Hero Section:</strong> An introductory section with a personal photo, name, and title.</li> 
-                <li><strong>My Stack Section:</strong> Highlights the technologies I am familiar with, including:
-                    JavaScript (basic knowledge – variables, functions, DOM)
-                    HTML & CSS (strong skills – responsive design, Flexbox, Grid)
-                    React Native (basic app development experience)</li> 
-                <li><strong>About Me Section:</strong> A short biography that explains my motivation for becoming a developer and learning journey.</li>
-                <li><strong>Project Portfolio Section:</strong> Includes three featured projects:
-                    Portfolio Website (linked to GitHub)
-                    Assembly Game
-                    Tenzies Game</li>
-                <li><strong>Footer with Social Links:</strong> Contact email and social media links (LinkedIn, GitHub, Instagram) using Font Awesome icons.</li> </ul>
-            <ul>🧰 <strong>Technologies Used:</strong>
-                <li><strong>HTML5 & CSS3:</strong> Semantic structure, layout, and custom styling.</li>
-                <li><strong>Font Awesome:</strong> For icons in the footer and navigation.</li>
-                <li><strong>JavaScript:</strong> For navigation toggling and potential dynamic interactions (via index.js).</li></ul>
+            <p><strong>Assembly: Endgame</strong> is a minimalist word-guessing game where each wrong guess eliminates a programming language — until you're left with the last one standing: Assembly.
+                Inspired by Hangman, this game challenges your logic, memory, and typing reflexes, wrapped in a playful coding-themed interface.</p>
+            <div class="portfolio-item-individual-links">
+                <a class="portfolio-item-link" href="https://github.com/jiriji/assembly-game.git" class="footer__link"><h3>🛠️ GitHub repository</h3></a>
+                <a class="portfolio-item-link" href="https://jiriji.github.io/assembly-game" class="footer__link"><h3>🎮 Game</h3></a>
+            </div>
+            <h3>🧩 Gameplay Features:</h3>
+            <ul>
+                <li>Guess a hidden word letter by letter</li> 
+                <li>Each incorrect guess removes one programming language from the stack</li> 
+                <li>You have 8 attempts to figure out the word before it's game over</li>
+                <li>Dynamic visual feedback and celebratory confetti on victory 🎉</li>
+            </ul>
+            <h3>🔧Tech Stack:</h3>
+            <ul>
+                <li>React with Hooks (useState)</li>
+                <li>Confetti animation using react-confetti</li>
+                <li>Dynamic class handling via clsx</li>
+                <li>Responsive design with semantic HTML and accessibility in mind</li>
+            </ul>
         </div>
 
       

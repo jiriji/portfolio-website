@@ -330,7 +330,7 @@ header {
 
 .about-me__img {
     box-shadow: var(--bs);
-}
+}    
 
 @media (min-width: 600px) {
     .about-me {
@@ -462,14 +462,13 @@ header {
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
-    text-align: left;
 }
 
 .portfolio-item-individual-links {
     display: flex; 
     flex-direction: column;
     max-width: 600px;
-    margin: 0 auto;
+    margin: 1em auto;
     gap: 1em;
 }       
 .portfolio-item-link {
