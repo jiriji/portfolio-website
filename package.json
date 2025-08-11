@@ -1,6 +1,6 @@
 {
   "name": "portfolio-website",
-  "home": "https://github.com/jiriji/portfolio-website.git",
+  "home": "https://jiriji.github.io/portfolio-website.git",
   "scripts": {
     "start": "vite",
     "dev": "vite",
@@ -10,7 +10,9 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
-    "gh-pages": "^6.3.0",
     "vite": "latest"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
