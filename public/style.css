@@ -305,23 +305,35 @@ header {
 
 .service {
     max-width: 500px;
-    margin: 0 auto;
+    margin: 1em auto;
+    border: var(--clr-light) 2px solid;
+    border-radius: 1em;
+    padding: 2em;
 }
 
 @media (min-width: 800px) {
     .services {
-        display: flex;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         max-width: 1000px;
-        margin-left: auto;
-        margin-right: auto;
+        margin: 1em auto 4em;
+        gap: 2em;
     }
 
-    .service + .service {
-        margin-left: 4em;
+    .service {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        justify-content: space-between;
     }
-}
 
-/* About me */
+    .service p {
+        margin-top: 1em;
+        margin-bottom: auto;
+    }
+} */
+
+/* About me section */
 
 .about-me {
     max-width: 1000px;
